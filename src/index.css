@@ -1,0 +1,59 @@
+@import "tailwindcss";
+.main{
+ /* background: linear-gradient(135deg, #F2D27A, #D8A851); */
+ background: linear-gradient(135deg, #FFB75E, #FF7A44);
+ /* background: linear-gradient(135deg, #A8E063, #F7CE68); */
+
+
+
+
+
+
+
+
+
+}
+
+.right{
+    right: -60px;
+}
+
+.clr{
+    background: linear-gradient(135deg, #FF6CAB, #FF0000);
+
+}
+
+.fit{
+background: linear-gradient(135deg, #004E2A, #009E60);
+
+}
+
+.card{
+ /* background: linear-gradient(135deg, #91c256, #e2be60); */
+  background: linear-gradient(135deg, #f2b060, #ea6f3e);
+
+
+}
+
+/* Smooth natural card transitions */
+.swiper-slide {
+  filter: blur(8px);
+  opacity: 0.3;
+  transform: scale(0.92);
+  transition: all 0.6s ease-in-out;
+}
+
+/* Active slide gets focus */
+.swiper-slide-active {
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Slide after active */
+.swiper-slide-next,
+.swiper-slide-prev {
+  filter: blur(4px);
+  opacity: 0.6;
+  transform: scale(0.96);
+}
