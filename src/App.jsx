@@ -48,7 +48,7 @@ const App = () => {
   })
 
   return (
-    <div className="w-full h-screen bg-[#EDE6D4] main">
+    <div className="w-full h-screen main">
 
       {/* NAVBAR */}
       <div className="w-full h-20 flex items-center justify-between px-10 shadow-md relative overflow-hidden">
